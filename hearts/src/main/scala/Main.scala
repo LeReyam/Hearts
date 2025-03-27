@@ -1,5 +1,14 @@
 @main def hello(): Unit =
-  println("Hello world!")
-  println(msg)
+  println()
+  println("Round 1:")
+  print("Pot: ")
+  println(playstate)
+  print("Hand: ")
+  println(Hand)
+  println("Card to play: ")
 
 def msg = "I was compiled by Scala 3. :)"
+
+def playstate = "2Kreuz,5Kreuz,DamePik,"
+
+def Hand = "4Kreuz,7Kreuz,5Pik,BubePik,5Herz,7Herz"
