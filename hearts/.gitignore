@@ -9,7 +9,7 @@ Hearts/metals.sbt
 
 # Metals
 .bloop/
-.metals/
+.metals.*
 metals.sbt
 
 # vs code
