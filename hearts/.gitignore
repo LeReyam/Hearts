@@ -4,8 +4,13 @@
 .bsp
 
 # metals
-Hearts/metals.sbt
+Hearts/metals/
 .metals
+
+.metals/
+.ammonite/
+metals.sbt
+metals/project/
 
 # Metals
 .bloop/
