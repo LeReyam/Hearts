@@ -1,5 +1,48 @@
-# macOS
+
+# bloop and metals
+.bloop
+.bsp
+
+# metals
+project/metals.sbt
+.metals
+
+# Metals
+.bloop/
+.metals/
+metals.sbt
+
+# vs code
+.vscode
+
+#java
+*.class
+
+# scala 3
+.tasty
+
+# sbt
+project/project/
+project/target/
+target/
+
+# coursier
+null/
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
 .DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache-main
 
 # sbt specific
 dist/*
@@ -15,18 +58,24 @@ project/local-plugins.sbt
 .sbt-scripted/
 local.sbt
 
-# Bloop
-.bsp
 
-# VS Code
-.vscode/
-
-# Metals
-.bloop/
-.metals/
-metals.sbt
 
 # IDEA
 .idea
 .idea_modules
 /.worksheet/
+
+# coursier
+null/
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# other?
+.history
+.scala_dependencies
+.cache-main

@@ -1,4 +1,4 @@
-
+package de.htwg.se.Hearts
 @main def hello(): Unit =
   println()
   println("Round 1:")
