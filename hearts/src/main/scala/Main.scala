@@ -2,13 +2,13 @@
   println()
   println("Round 1:")
   print("Pot: ")
-  println(playstate)
+  println(pot)
   print("Hand: ")
   println(Hand)
   println("Card to play: ")
 
-def msg = "I was compiled by Scala 3. :)"
+//def msg = "I was compiled by Scala 3. :)"
 
-def playstate = "2Kreuz,5Kreuz,DamePik,"
+def pot = "2Kreuz,5Kreuz,DamePik,"
 
 def Hand = "4Kreuz,7Kreuz,5Pik,BubePik,5Herz,7Herz"
