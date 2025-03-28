@@ -4,7 +4,7 @@
 .bsp
 
 # metals
-project/metals.sbt
+Hearts/metals.sbt
 .metals
 
 # Metals
@@ -57,8 +57,6 @@ project/local-plugins.sbt
 .ensime_cache/
 .sbt-scripted/
 local.sbt
-
-
 
 # IDEA
 .idea
